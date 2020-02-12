@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view>
+  <button class="control" type="primary" bindtap="mqttConnect">连接MQTT服务器</button>
+  <button class="control" type="primary" bindtap="subscribeTopic">订阅主题</button>
+  <button class="control" type="default" bindtap="publishMessage">发布消息</button>
+  <button class="control" type="warn" bindtap="unsubscribeTopic">退订主题</button>
+  <button class="control" type="warn" bindtap="closeClient">断开连接</button>
+</view>

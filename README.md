@@ -1,0 +1,10 @@
+# 微信小程序实现MQTT客户端
+## 1、此程序通过引用mqtt.js文件，实现了MQTT客户端功能
+- mqtt.js详情请查看https://github.com/mqttjs/MQTT.js
+## 2、此demo在使用时需要修改以下几点
+### （1）小程序appid
+### （2）MQTT服务器域名
+### （3）客户端账号、密码
+### （4）订阅主题、退订主题和发布消息主题
+## 注：mqtt.js文件下载链接
+- https://unpkg.com/browse/mqtt@3.0.0/dist/
